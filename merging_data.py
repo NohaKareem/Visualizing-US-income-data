@@ -21,8 +21,6 @@ income.head()
 # %% explore data_sc_jobs
 unique_titles = data_sc_jobs.job_title.unique()
 print(len(unique_titles), ' unique titles')
-# dataScTitles = uniqueTitles.job_title.str.contains('Data Scientist')
-# print(len(dataScTitles)) #~
 
 # %% comparing states data in job data_sc_jobs, if both lower case 
 # seems that data is different, given returned value False, albeit case-insensitivity
